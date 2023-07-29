@@ -1,0 +1,14 @@
+mini-printf.c:208:14: style: Condition 'pad_to>(int)sizeof(bf)' is always false [knownConditionTrueFalse]
+   if(pad_to > (signed int) sizeof(bf)) {
+             ^
+mini-printf.c:196:17: note: Assignment 'pad_to=0', assigned value is 0
+   int pad_to = 0;
+                ^
+mini-printf.c:208:14: note: Condition 'pad_to>(int)sizeof(bf)' is always false
+   if(pad_to > (signed int) sizeof(bf)) {
+             ^
+mini-printf.c:301:0: style: The function 'mini_pprintf' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
